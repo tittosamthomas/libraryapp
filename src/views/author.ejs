@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="icon" href="images/library1.ico">
+
+</head>
+<body>
+  <body background="/images/bg.jpg" >
+
+    <!-- for nav tab -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
+
+
+            <img src="images/library.ico" width="30" height="30" alt="">
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <a href="/" class="navbar-brand">Home</a>
+          <ul class="navbar-nav">
+
+            <%for(i=0;i<nav.length;i++){%>
+            <li class="nav-item">
+              <a class="nav-link" href="<%=nav[i].link%>"><%=nav[i].name%></a>
+            </li>
+
+            <%}%>
+
+          
+            
+          </ul>
+        </div>
+      </nav>
+
+    
+          <br>
+
+
+<br>
+    
+    <div class="card-deck">
+        <div class="card">
+          <img src="images/amrita-pritam.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="https://learn.culturalindia.net/amrita-pritam.html" class="card-link">Amrita Pritam</a>
+            <p>Pritam indulged in poetry and literature at a very young age which influenced her to become a poet and novelist later in her life. She was a courageous woman who did not fear writing controversial texts during the pre-partition era. She suffered through tough times during the partition of India which influenced her to write the Punjabi novel ‘Pinjar’ (skeleton) which describes the helplessness of the women during that era and the discrimination they had to go through.</p>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img src="images/r-k-narayan.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="https://www.britannica.com/biography/R-K-Narayan" class="card-link">R. K. Narayan</a>
+            <br>
+           <p>He was born in Chennai and due to his father’s transfers had to move around therefore changed many schools. His interest in reading was evident since a very young age and his hobby soon became a habit. He later graduated and decided to become a stay at home writer. His initial books were not that popular until his third novel, ‘The dark room’. Narayan wrote many novels after this which were published and soon became a well renowned author during his time in India.</p>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img src="images/agatha.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="https://en.wikipedia.org/wiki/Agatha_Christie" class="card-link">Agatha Christie</a>
+            <br>
+           <p>
+            “You start into it, inflamed by an idea, full of hope, full indeed of confidence. If you are properly modest, you will never write at all, so there has to be one delicious moment when you have thought of something, know just how you are going to write it, rush for a pencil, and start in exercise book buoyed up with exaltation. You then get into difficulties, don’t see your way out, and finally manage to accomplish more or less what you first meant to accomplish, though losing confidence all the time. Having finished it, you know it is absolutely rotten. A couple of months later you wonder if it may not be all right after all.”
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+<br>
+<br>
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/khushwant-singh.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+          
+            <a href="https://en.wikipedia.org/wiki/Khushwant_Singh" class="card-link">Khushwant Singh</a>
+            <br>
+            <p> He was a journalist, editor and novelist born in Hadli during the time of British India. He received his degree at St. Stephen’s College in New Delhi and King’s College in London. He initially started his career as a lawyer after which he got the opportunity to become the editor of important journals and magazines. As an author he wrote some outstanding novels like Train to Pakistan (1956), Delhi: A Novel (1990), The Company of Women (1999), Truth, Love and a Little Malice (2002), The Good, the Bad and the Ridiculous (2013).</p>
+          
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/jhumpa-lahiri.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="https://www.biography.com/writer/jhumpa-lahiri" class="card-link">Jhumpa Lahiri</a>
+            <br>
+           <P>Laihiri is well known for her novels, essays and short stories. She was born in London but relocated to the United States to get her education from the Barnard College. She went ahead for her masters and attained her degree from the Boston University. She was a struggling writer and her work was initially rejected by the publishers until her biggest success, ‘The interpreter of Maladies’. This was a compilation of all her short stories about the life of immigrants in post-partition India.</P>
+            
+          
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/ruskin-bond.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="https://en.wikipedia.org/wiki/Ruskin_Bond" class="card-link">Ruskin Bond</a>
+            <br>
+            <p>Bond was born in Punjab, British Indian and attained his education in Shimla and after completion of high school he moved to the U.K to enhance his writing career. He started his career as a freelance writer and eventually got jobs as editor in various magazines. It wasn’t until 1980 his novel was published which became widely admired amongst readers. His best known work is ‘The blue umbrella’, a heartwarming story read worldwide.</p>
+            
+        
+          </div>
+        </div>
+      </div>
+
+
+<br>
+<br>
+    
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/rabindranath-tagore.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="https://en.wikipedia.org/wiki/Rabindranath_Tagore" class="card-link"> Rabindranath Tagore</a>
+            <br>
+           <p>Even though Tagore received his education in law he took great interest in Shakespeare and his literature. Therefore following his works he became a poet and author. His first poem ‘Mansai’ was published in 1890 after which he gained immense popularity amongst Bengali readers. His most significant works include ‘Gitanjali’ which was a collection of poems and ‘Galpaguchchha’ which are eighty short stories.</p>
+            
+          
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/chetan-bhagat.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="https://www.famousauthors.org/chetan-bhagat" class="card-link">Chetan Bhagat</a>
+            <br>
+            <p>Cited by The New York Times in 2008 as the biggest selling English language novelist in India’s history, Chetan Bhagat is author, screenwriter, columnist and TV personality. He is known for Comedy-drama novels about young urban middle-class Indians. Some of his famous work includes Five Point Someone, 2 States, Half Girlfriend and One Indian Girl.</p>
+           
+            
+          
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/vikram-seth.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="https://en.wikipedia.org/wiki/Vikram_Seth" class="card-link">Vikram Seth</a>
+            <br>
+            <p>Seth born in Calcutta, graduated from high school, and studied Philosophy, Politics and Economics at Corpus Christi College, Oxford and graduated with a B. A. Degree in 1975. From 1975 to 1986, he pursued his Ph.D. at Stanford University, California, U.S.A. He is best known for his epic novel ‘The Suitable boy’.</p>
+        
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <footer class="footer-div">
+        <br>
+        <div class="container">
+      
+        
+          <div class="row">
+              <div class="col-md-3 col-sm-4 col-xs-6 footer-column">
+              <h4>About us</h4>
+              <div class="footer-menu">
+                <p>Reading books to help us learn and understand and makes us smarter, not to mention the knowledge, vocabulary and thinking skills we develop.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 footer-column">
+              <h4>Quick links</h4>
+              <ul class="footer-menu">
+                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="login.html">Login</a></li>
+               
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 footer-column">
+              <h4>Contact us</h4>
+      
+              <div class="footer-menu">
+              <p>
+                 p746, Pathanamthitta, Kerala</p>
+      
+                <p>
+                 </i> tittosamthomas@gmail.com</p>
+      
+                <p>
+                 </i> +91 9744728862</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 footer-column ">
+              <h4>Follow us</h4>
+      
+         
+              <ul class="follow">
+         <li><a  href="http://www.facebook.com" target="_blank">
+            <img src="images/fb.jpg" width="40" height="40">
+          </a></li> 
+         
+          <li>  <a  href="http://www.twitter.com" target="_blank">
+            <img src="images/twi.png" width="40" height="40">
+          </a></li> 
+        
+         
+          <li>   <a  href="http://www.instagram.com" target="_blank">
+            <img src="images/insta.jpg" width="40" height="40">
+          </a></li> 
+        </ul>
+      
+            </div>
+            
+          </div>
+        </div>
+      <div class="footer-copyright text-center py-1">
+      <p> Copyright 2020. libraryApp.com. All Rights Reserved</p>
+      </div>
+      </footer>
+      
+        
+       
+
+
+</body>
+</html>
